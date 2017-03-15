@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<body onload="InitThis();">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+
+  <div class = "controls">
+<h1> Hello, welcome to Conway's Game of Life! </h1>
+<p> Please draw the tiles that you would like to start with, and then push start.</p>
+<button onclick="toggleTick()">Start/Stop game</button>
+<button onclick="fillRandom()">Generate random pattern</button>
+<button onclick="resetGrid()">Reset board</button>
+</div>
+<div class="canvas">
+<canvas id="myCanvas" width="400" height="400" style="border:1px solid #000000;"></canvas>
+</div>
+<script type="text/javascript" src="game.js"></script>
+
+</body>
+</html>
